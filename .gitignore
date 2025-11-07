@@ -1,0 +1,19 @@
+# Ignora o cache (muda muito e é grande)
+configs/.mozilla/firefox/*/cache2/
+configs/.mozilla/firefox/*/startupCache/
+configs/.mozilla/firefox/*/storage/
+configs/.mozilla/firefox/*/safebrowsing/
+configs/.mozilla/firefox/*/minidumps/
+configs/.mozilla/firefox/*/Telemetry/
+
+# Ignora o histórico local, sessões e logs
+configs/.mozilla/firefox/*/sessionstore.jsonlz4
+configs/.mozilla/firefox/*/places.sqlite-wal
+configs/.mozilla/firefox/*/places.sqlite-shm
+configs/.mozilla/firefox/*/webapps/
+configs/.mozilla/firefox/*/lock
+configs/.mozilla/firefox/*/logs/
+
+# Geralmente é bom ignorar o resto dos arquivos sqlite temporários
+configs/.mozilla/firefox/*/*.sqlite-wal
+configs/.mozilla/firefox/*/*.sqlite-shm

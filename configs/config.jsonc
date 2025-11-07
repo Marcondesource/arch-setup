@@ -1,0 +1,23 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "source": "gnu",
+    "padding": { "right": 2 }
+  },
+  "keyValueSeparator": "",
+  "modules": [
+    "title",
+    "break",
+    { "type": "os",      "key": "󰣇 Sistema   │",  "keyColor": "#6cb6eb", "valueColor": "#c0caf5" },
+    { "type": "kernel",  "key": "󰌽 Kernel    │",  "keyColor": "#6cb6eb", "valueColor": "#c0caf5" },
+    { "type": "packages","key": "󰏖 Pacotes   │",  "keyColor": "#e0af68", "valueColor": "#c0caf5" },
+    { "type": "shell",   "key": "󰆍 Shell     │",  "keyColor": "#bb9af7", "valueColor": "#c0caf5" },
+    { "type": "de",      "key": "󰇄 DE        │",  "keyColor": "#7dcfff", "valueColor": "#c0caf5" },
+    { "type": "wm",      "key": "󰖲 WM        │",  "keyColor": "#7dcfff", "valueColor": "#c0caf5" },
+    { "type": "cpu",     "key": "󰻠 CPU       │",  "format": "{1} ({5})", "keyColor": "#9ece6a", "valueColor": "#c0caf5" },
+    { "type": "gpu",     "key": "󰢮 GPU       │",  "keyColor": "#f7768e", "valueColor": "#c0caf5" },
+    { "type": "memory",  "key": "󰍛 Memória   │",  "keyColor": "#9ece6a", "valueColor": "#c0caf5" },
+    "break",
+    { "type": "colors", "symbol": "circle" }
+  ]
+}
