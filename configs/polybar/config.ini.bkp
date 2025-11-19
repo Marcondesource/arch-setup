@@ -44,14 +44,16 @@ padding-left = 0
 padding-right = 1
 
 module-margin = 1
-
+s
 separator = |
 separator-foreground = ${colors.disabled}
 
 font-0 = monospace;2
-
-modules-left = xworkspaces xwindow
-modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth date
+font-1= JetBrainsMono Nerd Font Mono:size=20;1
+ 
+modules-center = date 
+modules-left = xworkspaces
+modules-right = updates weather network pulseaudio 
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -101,81 +103,49 @@ label-empty-padding = 1
 type = internal/xwindow
 label = %title:0:60:...%
 
-[module/filesystem]
-type = internal/fs
-interval = 25
-
-mount-0 = /
-
-label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
-
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.disabled}
-
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume-prefix = "VOL "
+format-volume-prefix = ""
 format-volume-prefix-foreground = ${colors.primary}
 format-volume = <label-volume>
 
-label-volume = %percentage%%
+label-volume = 󰕾 %percentage%%
 
-label-muted = muted
+label-muted =   muted
 label-muted-foreground = ${colors.disabled}
 
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
-
-label-layout = %layout%
-label-layout-foreground = ${colors.primary}
-
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-foreground = ${colors.background}
-label-indicator-background = ${colors.secondary}
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = "RAM "
-format-prefix-foreground = ${colors.primary}
-label = %percentage_used:2%%
-
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = "CPU "
-format-prefix-foreground = ${colors.primary}
-label = %percentage:2%%
-
-[network-base]
+[module/network]
 type = internal/network
+interface = enp9s0
 interval = 5
 format-connected = <label-connected>
+label-connected =   
 format-disconnected = <label-disconnected>
-label-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected
-
-[module/wlan]
-inherit = network-base
-interface-type = wireless
-label-connected = %{F#F0C674}%ifname%%{F-} %essid% %local_ip%
-
-[module/eth]
-inherit = network-base
-interface-type = wired
-label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
+label-disconnected =  %{F#F0C674}%ifname%%{F#707880} disconnected
 
 [module/date]
 type = internal/date
 interval = 1
 
 date = %H:%M
-date-alt = %Y-%m-%d %H:%M:%S
+date-alt = %d-%m-%y 
 
 label = %date%
-label-foreground = ${colors.primary}
+
+[module/weather]
+type = custom/script
+exec = ~/.config/polybar/plugins/weather.sh  
+tail = false
+interval = 60
+
+[module/updates]
+type = custom/script
+exec = ~/.config/polybar/plugins/updates.sh 
+interval = 3600                     
+format = <label>
+label = %output%
+click-left = xfce4-terminal --command "sudo pacman -Syu" 
 
 [settings]
 screenchange-reload = true
