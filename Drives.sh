@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-{
 #Script de instalação de drives (GTX 550TI)
 #Variaveis
 tmpdir="$(mktemp -d)"
@@ -11,6 +10,7 @@ exit 1
 fi
 }
 
+{
 #1 Habilitar o multilib e instalar o yay
 echo ">>>>>Habilitando multilib e instalando o yay"
 
@@ -55,7 +55,7 @@ sudo mkinitcpio -P
 check "Falha"
 echo "Tudo certo"
 
-} | tee ~/Documentos/Install_Drives-logs.txt
+} 2>&1 | tee "$HOME/Documentos/Install-logs.txt"
 
 echo "            Instalação Concluida  			   "
 echo "====================================="

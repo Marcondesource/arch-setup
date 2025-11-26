@@ -23,12 +23,8 @@ fi
 {
 echo "Atualizando & instalando pacotes"
 sudo pacman -Syu  
-if [ "$?" -eq 0 ]; then
+check "Erro ao Atualizar"
 echo "Atualizado com sucesso, instalando pacotes"
-else
-echo "Erro ao atualizar"
-exit 1
-fi 
 
 echo "             Interfaces  			   "
 echo "====================================="
@@ -251,7 +247,7 @@ sudo ufw allow ssh
 sudo ufw status  
 check "Erro ao Configurar"
 echo "Firewall configurado"
-} | tee $HOME/Documentos/Install-logs.txt
+} 2>&1 | tee "$HOME/Documentos/Install-logs.txt"
 echo "            Instalação Concluida  			   "
 echo "====================================="
 echo "Os logs foram salvos em ~/Documentos"
