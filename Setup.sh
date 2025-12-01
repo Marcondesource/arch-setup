@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script de pos instalação...
 #Variaveis (Edite conforme a distro ou interface desejada).
-BASE="git curl nano wget ark unzip zip redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils
+BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils
 gvfs gvfs-mtp xdg-user-dirs"
 XFCE="xfwm4 xfdesktop xfconf xfce4-whiskermenu-plugin xfce4-terminal xfce4-taskmanager xfce4-session 
 xfce4-settings xfce4-screenshooter xfce4-screensaver xfce4-pulseaudio-plugin xfce4-power-manager xfce4-clipman-plugin 
