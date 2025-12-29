@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+I#!/usr/bin/env bash
 #Script de pos instalação...
 #Variaveis (Edite conforme a distro ou interface desejada).
 BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils
@@ -8,7 +8,7 @@ xfce4-settings xfce4-screenshooter xfce4-screensaver xfce4-pulseaudio-plugin xfc
 xfce4-panel xfce4-notifyd xfce4-mpc-plugin tumbler"
 LOGIN="lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings"
 LOGIN_I3="ly"
-UTILITARIOS="mpv geany syncthing"
+UTILITARIOS="mpv geany qemu-full syncthing"
 OUTROS="firefox firefox-i18n-pt-br"
 I3="3-wm polybar picom lxappearance pacman-contrib polkit-gnome"
 ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin 
@@ -253,6 +253,12 @@ sudo systemctl daemon-reload
 sudo systemctl start /dev/zram0
 check "Erro ao Configurar"
 echo "ZRam configurado"
+
+echo "Configurando Qemu"
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
+check "Erro ao Configurar"
+echo "Qemu configurado"
 
 echo "Configurando Firewall"
 sudo ufw enable
