@@ -239,6 +239,20 @@ echo "Fish configurado"
 
 echo "Configurando Syncthing"
 systemctl --user enable --now syncthing.service
+check "Erro ao Configurar"
+echo "Syncthing configurado"
+
+echo "Configurando makepkg"
+sudo cp configs/makepkg.conf /etc/ 
+check "Erro ao Configurar"
+echo "Makepkg configurado"
+
+echo "Configurando ZRam"
+sudo cp configs/zram-generator.conf /etc/systemd/
+sudo systemctl daemon-reload
+sudo systemctl start /dev/zram0
+check "Erro ao Configurar"
+echo "ZRam configurado"
 
 echo "Configurando Firewall"
 sudo ufw enable
