@@ -11,9 +11,10 @@ alias pesquisar='sudo pacman -Ss'
 alias instalar='sudo pacman -S --noconfirm'
 alias remover='sudo pacman -Rns --noconfirm'
 alias pesquisary='yay -Ss'
-alias instalary='yay -S'
-alias removery='yay -Rns'
-alias atualizar='sudo pacman -Syu'
+alias instalary='yay -S --noconfirm'
+alias removery='yay -Rns --noconfirm'
+alias atualizar='sudo pacman -Syu --noconfirm'
+alias tempo="sudo tune2fs -l /dev/sda2 | grep 'Filesystem created:'"
 
 #Arquivos
 alias config.ini='sudo micro .config/polybar/config.ini'
