@@ -8,7 +8,7 @@ xfce4-settings xfce4-screenshooter xfce4-screensaver xfce4-pulseaudio-plugin xfc
 xfce4-panel xfce4-notifyd xfce4-mpc-plugin tumbler"
 LOGIN="lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings"
 LOGIN_I3="ly"
-UTILITARIOS="mpv geany qemu-full syncthing dialog"
+UTILITARIOS="mpv geany qemu-desktop syncthing dialog audacious"
 OUTROS="firefox firefox-i18n-pt-br"
 I3="3-wm polybar picom lxappearance pacman-contrib polkit-gnome"
 ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin 
