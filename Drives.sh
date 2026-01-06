@@ -28,9 +28,9 @@ check "Falha ao Instalar"
 echo "Pacotes instalados"
 
 echo "Instalando yay"
-git clone https://aur.archlinux.org/yay.git "$tmpdir" && cd "$tmpdir/yay"
+git clone https://aur.archlinux.org/yay.git "$tmpdir/yay" && cd "$tmpdir/yay"
 pwd
-makepkg -si
+sudo -u "$USER" makepkg -si
 check "Falha ao Instalar"
 echo "Instalado com sucesso"
 
