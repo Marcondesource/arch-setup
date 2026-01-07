@@ -3,6 +3,7 @@
 #Variaveis
 tmpdir="$(mktemp -d)"
 UTILS="base-devel git linux-lts-headers"
+XORG="xorg-server xorg-xinit xterm xorg-fonts-misc xorg-xrandr xsel"
 check() {
 if [ "$?" -ne 0 ]; then
 echo "ERRO: $1"
@@ -23,7 +24,7 @@ check "Falha ao Atualizar"
 echo "Atualizado com sucesso"
 
 echo "Instalando pacotes necessarios"
-sudo pacman -S --noconfirm $UTILS
+sudo pacman -S --noconfirm $UTILS $XORG
 check "Falha ao Instalar"
 echo "Pacotes instalados"
 
@@ -32,7 +33,7 @@ git clone https://aur.archlinux.org/yay.git "$tmpdir/yay"
 chown -R marcondes:marcondes "$tmpdir"
 cd "$tmpdir/yay"
 pwd
-sudo -u marcondesv makepkg -si --noconfirm
+sudo -u marcondes makepkg -si --noconfirm
 check "Falha ao Instalar"
 echo "Instalado com sucesso"
 
@@ -42,7 +43,7 @@ rm -rf "$tmpdir"
 
 #2 Instalando drives Nvidia
 echo "Instalando drives Nvidia"
-yay -S --noconfirm nvidia-390xx-dkms nvidia-390xx-utils nvidia-390xx-settings lib32-nvidia-390xx-utils
+sudo -u marcondes yay -S --noconfirm nvidia-390xx-dkms nvidia-390xx-utils nvidia-390xx-settings lib32-nvidia-390xx-utils
 check "Falha ao Instalar"
 echo "Instalado com sucesso"
 
