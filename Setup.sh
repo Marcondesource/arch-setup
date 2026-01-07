@@ -3,7 +3,7 @@
 #Variaveis (Edite conforme a distro ou interface desejada).
 BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils
 gvfs gvfs-mtp xdg-user-dirs fastfetch"
-LOGIN="lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings"
+LOGIN="lxdm"
 UTILITARIOS="chromium mpv geany kodi qemu-desktop syncthing dialog audacious"
 I3="i3-wm polybar picom rofi lxappearance pacman-contrib polkit-gnome"
 ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin 
@@ -23,7 +23,7 @@ echo "Atualizado com sucesso, instalando pacotes"
 
 echo "Instalando I3-WM"
 sudo pacman -S --noconfirm $BASE $I3 $LOGIN $ARQUIVOS $UTILITARIOS || true
-sudo systemctl enable lightdm
+sudo systemctl enable lxdm
 check "Erro ao instalar"
 echo "Pacotes Instalados"
 
