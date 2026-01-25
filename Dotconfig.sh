@@ -52,10 +52,6 @@ fi
 if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
 fi
-
-if command -v chromium &> /dev/null; then
-sudo cp -Rv /.dotfiles/flatpak/chromium/ "$HOME/.config/"
-fi
 ;;
 2)
 #Pacman
@@ -93,9 +89,6 @@ if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
 fi
 
-if command -v chromium &> /dev/null; then
-sudo cp -Rv /.dotfiles/flatpak/chromium/ "$HOME/.config/"
-fi
 esac
 
 echo "Configurando Firewall"

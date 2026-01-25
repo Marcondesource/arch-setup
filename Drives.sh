@@ -11,7 +11,6 @@ exit 1
 fi
 }
 
-{
 #1 Habilitar o multilib e instalar o yay
 echo ">>>>>Habilitando multilib e instalando o yay"
 
@@ -58,11 +57,7 @@ sudo mkinitcpio -P
 check "Falha"
 echo "Tudo certo"
 
-} 2>&1 | tee "$HOME/Documentos/Install-logs.txt"
-
 echo "            Instalação Concluida  			   "
-echo "====================================="
-echo "Os logs foram salvos em ~/Documentos"
 echo "====================================="
 read -p "Reiniciar agora? (s/n)" reiniciar
 if [ "$reiniciar" = "s" ]; then
