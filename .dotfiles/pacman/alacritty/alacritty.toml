@@ -1,0 +1,40 @@
+[window]
+dynamic_title = true
+opacity = 1.0
+
+[window.padding]
+x = 5
+y = 5
+
+[colors.primary]
+background = "0x000000"
+foreground = "#00FF00"
+
+[font]
+size = 15
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "FiraCode Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+style = "Light"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+style = "SemiBold"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"

@@ -1,0 +1,112 @@
+#!/usr/bin/env bash
+#Variaveis
+
+#Variaveis de cor
+
+echo "Ambiente Grafico"
+echo "1-I3WM"
+echo "2-XFCE"
+read -p "Escolha um :" ambiente
+
+case $ambiente in
+1)
+#Pacman
+if [ -d "$HOME/.config/" ]; then
+echo "Configurando programas"
+else
+mkdir -p "$HOME/.config"
+echo "Diretorio criado, configurando programas"
+fi
+
+if command -v alacritty &> /dev/null; then
+cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
+fi
+
+if command -v bash &> /dev/null; then
+cp -v /.dotfiles/pacman/bash/.bashrc "$HOME"
+fi
+
+if command -v fastfetch &> /dev/null; then
+cp -Rv /.dotfiles/pacman/fastfetch/ "$HOME/.config/"
+fi
+
+if command -v i3 &> /dev/null; then
+cp -Rv /.dotfiles/pacman/i3/ "$HOME/.config/"
+fi
+
+if command -v polybar &> /dev/null; then
+cp -Rv /.dotfiles/pacman/polybar/ "$HOME/.config/"
+fi
+
+if command -v Xorg &> /dev/null; then
+sudo cp -v /.dotfiles/pacman/xorg/xorg.conf /etc/X11/
+fi
+
+#Flatpak
+if command -v gimp &> /dev/null; then
+cp -Rv /.dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
+cp -v /.dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
+cp -Rv /.dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
+fi
+
+if command -v tv.kodi.Kodi &> /dev/null; then
+sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
+fi
+
+if command -v chromium &> /dev/null; then
+sudo cp -Rv /.dotfiles/flatpak/chromium/ "$HOME/.config/"
+fi
+;;
+2)
+#Pacman
+if [ -d "$HOME/.config/" ]; then
+echo "Configurando programas"
+else
+mkdir -p "$HOME/.config"
+echo "Diretorio criado, configurando programas"
+fi
+
+if command -v alacritty &> /dev/null; then
+cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
+fi
+
+if command -v bash &> /dev/null; then
+cp -v /.dotfiles/pacman/bash/.bashrc "$HOME"
+fi
+
+if command -v fastfetch &> /dev/null; then
+cp -Rv /.dotfiles/pacman/fastfetch/ "$HOME/.config/"
+fi
+
+if command -v Xorg &> /dev/null; then
+sudo cp -v /.dotfiles/pacman/xorg/xorg.conf /etc/X11/
+fi
+
+#Flatpak
+if command -v gimp &> /dev/null; then
+cp -Rv /.dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
+cp -v /.dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
+cp -Rv /.dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
+fi
+
+if command -v tv.kodi.Kodi &> /dev/null; then
+sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
+fi
+
+if command -v chromium &> /dev/null; then
+sudo cp -Rv /.dotfiles/flatpak/chromium/ "$HOME/.config/"
+fi
+esac
+
+echo "Configurando Firewall"
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw allow ssh
+sudo ufw status
+echo "            Instalação Concluida  			   "
+echo "====================================="
+read -p "Deseja sair agora? (s/n)" sair
+if [ "$sair" = "s" ]; then
+echo "Saindo...."
+exit 1
+fi
