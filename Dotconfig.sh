@@ -23,7 +23,7 @@ cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
 fi
 
 if command -v bash &> /dev/null; then
-cp -v /.dotfiles/pacman/bash/.bashrc "$HOME"
+cp -v /.dotfiles/outros/bash/.bashrc "$HOME"
 fi
 
 if command -v fastfetch &> /dev/null; then
@@ -67,7 +67,7 @@ cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
 fi
 
 if command -v bash &> /dev/null; then
-cp -v /.dotfiles/pacman/bash/.bashrc "$HOME"
+cp -v /.dotfiles/outros/bash/.bashrc "$HOME"
 fi
 
 if command -v fastfetch &> /dev/null; then
@@ -76,6 +76,10 @@ fi
 
 if command -v Xorg &> /dev/null; then
 sudo cp -v /.dotfiles/pacman/xorg/xorg.conf /etc/X11/
+fi
+
+if command -v tint2 &> /dev/null; then
+sudo cp -v /.dotfiles/pacman/tint2/ "$HOME/.config"
 fi
 
 #Flatpak
@@ -88,8 +92,20 @@ fi
 if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
 fi
-
 esac
+
+#Icones, Temas & Wallpapers
+if [ ! -d "$HOME/.icons" ]; then
+mkdir -p "$HOME/.icons"
+cp -Rv .dotfiles/outros/.icons "$HOME"
+
+if [ ! -d "$HOME/.themes" ]; then
+mkdir -p "$HOME/.themes"
+cp -Rv .dotfiles/outros/.themes "$HOME"
+
+if [ ! -d "$HOME/Imagens" ]; then
+mkdir -p "$HOME/Imagens"
+cp -Rv .dotfiles/outros/Wallpapers "$HOME/Imagens/"
 
 echo "Configurando Firewall"
 sudo ufw enable
