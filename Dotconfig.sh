@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 #Variaveis
 
-#Variaveis de cor
-
 echo "Ambiente Grafico"
 echo "1-I3WM"
 echo "2-XFCE"
 read -p "Escolha um :" ambiente
 
-case $ambiente in
-1)
-#Pacman
+#Iniciado Config
+if [ -d ".dotfiles" ]; then
+cd .dotfiles
+pwd
+else
+echo "Diretorio .dotfiles não emcontrado!"
+exit 1
+fi
+
 if [ -d "$HOME/.config/" ]; then
 echo "Configurando programas"
 else
@@ -18,79 +22,76 @@ mkdir -p "$HOME/.config"
 echo "Diretorio criado, configurando programas"
 fi
 
+case $ambiente in
+1)
+#Pacman
 if command -v alacritty &> /dev/null; then
-cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/alacritty/ "$HOME/.config/"
 fi
 
 if command -v bash &> /dev/null; then
-cp -v /.dotfiles/outros/bash/.bashrc "$HOME"
+cp -v .dotfiles/outros/bash/.bashrc "$HOME"
 fi
 
 if command -v fastfetch &> /dev/null; then
-cp -Rv /.dotfiles/pacman/fastfetch/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/fastfetch/ "$HOME/.config/"
 fi
 
 if command -v i3 &> /dev/null; then
-cp -Rv /.dotfiles/pacman/i3/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/i3/ "$HOME/.config/"
 fi
 
 if command -v polybar &> /dev/null; then
-cp -Rv /.dotfiles/pacman/polybar/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/polybar/ "$HOME/.config/"
 fi
 
 if command -v Xorg &> /dev/null; then
-sudo cp -v /.dotfiles/pacman/xorg/xorg.conf /etc/X11/
+sudo cp -v .dotfiles/pacman/xorg/xorg.conf /etc/X11/
 fi
 
 #Flatpak
 if command -v gimp &> /dev/null; then
-cp -Rv /.dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
-cp -v /.dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
-cp -Rv /.dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
+cp -Rv .dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
+cp -v .dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
+cp -Rv .dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
 fi
 
 if command -v tv.kodi.Kodi &> /dev/null; then
-sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
+sudo cp -v .dotfiles/flatpak/kodi/ "$HOME"
 fi
 ;;
 2)
 #Pacman
-if [ -d "$HOME/.config/" ]; then
-echo "Configurando programas"
-else
-mkdir -p "$HOME/.config"
-echo "Diretorio criado, configurando programas"
-fi
 
 if command -v alacritty &> /dev/null; then
-cp -Rv /.dotfiles/pacman/alacritty/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/alacritty/ "$HOME/.config/"
 fi
 
 if command -v bash &> /dev/null; then
-cp -v /.dotfiles/outros/bash/.bashrc "$HOME"
+cp -v .dotfiles/outros/bash/.bashrc "$HOME"
 fi
 
 if command -v fastfetch &> /dev/null; then
-cp -Rv /.dotfiles/pacman/fastfetch/ "$HOME/.config/"
+cp -Rv .dotfiles/pacman/fastfetch/ "$HOME/.config/"
 fi
 
 if command -v Xorg &> /dev/null; then
-sudo cp -v /.dotfiles/pacman/xorg/xorg.conf /etc/X11/
+sudo cp -v .dotfiles/pacman/xorg/xorg.conf /etc/X11/
 fi
 
 if command -v tint2 &> /dev/null; then
-sudo cp -v /.dotfiles/pacman/tint2/ "$HOME/.config"
+sudo cp -v .dotfiles/pacman/tint2/ "$HOME/.config"
 fi
 
 #Flatpak
 if command -v gimp &> /dev/null; then
-cp -Rv /.dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
-cp -v /.dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
-cp -Rv /.dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
+cp -Rv .dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
+cp -v .dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
+cp -Rv .dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
 fi
 
 if command -v tv.kodi.Kodi &> /dev/null; then
-sudo cp -v /.dotfiles/flatpak/kodi/ "$HOME"
+sudo cp -v .dotfiles/flatpak/kodi/ "$HOME"
 fi
 esac
 

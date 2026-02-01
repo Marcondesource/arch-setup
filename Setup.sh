@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #Script de pos instalação...
 #Variaveis (Edite conforme a distro ou interface desejada).
-BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils gvfs gvfs-mtp ufw xdg-user-dirs fastfetch"
+BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils gvfs gvfs-mtp ufw xdg-user-dirs fastfetch flatpak"
 LOGIN="lxdm"
 UTILITARIOS="mpv ristretto syncthing dialog audacious"
-I3="i3-wm polybar picom rofi flameshot dunts lxappearance pacman-contrib polkit-gnome"
-ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin 
+I3="i3-wm polybar picom rofi flameshot dunst lxappearance pacman-contrib polkit-gnome"
+ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin
 thunar-vcs-plugin thunar-volman"
-FONTS="ttf-terminus-nerd ttf-ubuntu-nerd ttf-jetbrains-mono-nerd ttf-inconsolata-nerd tf-ibmplex-mono-nerd ttf-hack-nerd ttf-firacode-nerd"
+FONTS="ttf-terminus-nerd ttf-ubuntu-nerd ttf-jetbrains-mono-nerd ttf-inconsolata-nerd ttf-ibmplex-mono-nerd ttf-hack-nerd ttf-firacode-nerd"
 XFCE="tint2 xfwm4-themes xfdesktop rofi xfce4-settings xfce4-session xfce4-screenshooter xfce4-mixer xfce4-screensaver xfce4-pulseaudio-plugin xfce4-power-manager"
 YAY="nitrogen"
-FLATPAK="kodi freedownloadmanager jdownloader2"
+FLATPAK="kodi freedownloadmanager"
 check() {
 if [ "$?" -ne 0 ]; then
 echo "ERRO: $1"
