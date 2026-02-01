@@ -7,14 +7,6 @@ echo "2-XFCE"
 read -p "Escolha um :" ambiente
 
 #Iniciado Config
-if [ -d ".dotfiles" ]; then
-cd .dotfiles
-pwd
-else
-echo "Diretorio .dotfiles não emcontrado!"
-exit 1
-fi
-
 if [ -d "$HOME/.config/" ]; then
 echo "Configurando programas"
 else
@@ -99,14 +91,17 @@ esac
 if [ ! -d "$HOME/.icons" ]; then
 mkdir -p "$HOME/.icons"
 cp -Rv .dotfiles/outros/.icons "$HOME"
+fi
 
 if [ ! -d "$HOME/.themes" ]; then
 mkdir -p "$HOME/.themes"
 cp -Rv .dotfiles/outros/.themes "$HOME"
+fi
 
 if [ ! -d "$HOME/Imagens" ]; then
 mkdir -p "$HOME/Imagens"
 cp -Rv .dotfiles/outros/Wallpapers "$HOME/Imagens/"
+fi
 
 echo "Configurando Firewall"
 sudo ufw enable
