@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="selection-break.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="-6.8048206"
+     inkscape:cy="8.308905"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.34483063"
+     d="m 8.0386163,0.12630443 c 4.4123237,0 7.9889347,3.52501947 7.9889347,7.87369537 0,4.3486762 -3.576611,7.8736952 -7.9889347,7.8736952 -4.4123227,0 -7.98893416,-3.525019 -7.98893416,-7.8736952 0,-4.3486759 3.57661146,-7.87369537 7.98893416,-7.87369537 z"
+     inkscape:connector-curvature="0" />
+  <rect
+     y="6"
+     x="1"
+     height="9"
+     width="11"
+     rx="0.5"
+     style="fill:#2aa198;fill-opacity:1;stroke:none;display:inline;color:#000"
+     id="rect2" />
+  <path
+     d="M 15 6 A 5 5 0 0 1 5 6 5 5 0 1 1 15 6"
+     style="fill:#df4441;fill-opacity:1;stroke:none;display:inline;color:#000"
+     id="path4" />
+</svg>

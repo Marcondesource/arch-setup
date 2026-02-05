@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3521"
+   height="22"
+   viewBox="0 0 22 22"
+   width="22"
+   version="1.1"
+   sodipodi:docname="minuet-rhythms.svg"
+   inkscape:version="0.92.0 r">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-5.3601695"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3521" />
+  <defs
+     id="defs4339">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {
+        color:#f2f2f2;
+      }</style>
+  </defs>
+  <metadata
+     id="metadata3526">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47557321"
+     d="M 11,0.06949981 C 17.045454,0.06949981 21.945873,4.9630376 21.945873,11 21.945873,17.036963 17.045454,21.930501 11,21.930501 4.9545475,21.930501 0.05412702,17.036963 0.05412702,11 0.05412702,4.9630376 4.9545475,0.06949981 11,0.06949981 Z"
+     inkscape:connector-curvature="0" />
+  <g
+     id="layer1"
+     transform="translate(0 -1030.4)">
+    <path
+       id="rect4298"
+       class="ColorScheme-Text"
+       style="fill:currentColor"
+       d="m8 4v2 8h1v-8h7v8h1v-8-2h-9zm-2.9141 10.301l-0.707 0.707 1.4141 1.414-1.4141 1.414 0.707 0.707 1.4141-1.414 1.4141 1.414 0.707-0.707-1.4141-1.414 1.4141-1.414-0.707-0.707-1.4141 1.414-1.4141-1.414zm8.0001 0l-0.707 0.707 1.414 1.414-1.414 1.414 0.707 0.707 1.414-1.414 1.414 1.414 0.707-0.707-1.414-1.414 1.414-1.414-0.707-0.707-1.414 1.414-1.414-1.414z"
+       transform="translate(0,1030.4)" />
+  </g>
+</svg>

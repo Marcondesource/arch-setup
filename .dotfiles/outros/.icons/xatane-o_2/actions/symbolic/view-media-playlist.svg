@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="view-media-playlist.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="-9.0794849"
+     inkscape:cy="9.123291"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.34483066"
+     d="m 8.0386159,0.12630468 c 4.4123241,0 7.9889351,3.52501922 7.9889351,7.87369522 0,4.3486761 -3.576611,7.8736951 -7.9889351,7.8736951 -4.4123224,0 -7.98893387,-3.525019 -7.98893387,-7.8736951 0,-4.348676 3.57661147,-7.87369522 7.98893387,-7.87369522 z"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 15 1 0 2 -9 0 0 -2"
+     style="fill:#888"
+     id="path2" />
+  <path
+     d="m 15 9 0 2 -14 0 0 -2"
+     style="fill:#888"
+     id="path4" />
+  <path
+     d="m 15 5 0 2 -9 0 0 -2"
+     style="fill:#888"
+     id="path6" />
+  <path
+     d="m 15 13 0 2 -14 0 0 -2 z"
+     style="fill:#888"
+     id="path8" />
+  <path
+     d="m 5 4 -4 -3 0 6"
+     style="fill:#dc322f"
+     id="path10" />
+</svg>

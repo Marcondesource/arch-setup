@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="debug-step-into-instruction.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-6.4788136"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47455958"
+     d="m 10.999999,0.06949951 c 6.019712,0 10.899264,4.89353799 10.899264,10.93050049 0,6.036963 -4.879552,10.930501 -10.899264,10.930501 C 4.9802902,21.930501 0.1007371,17.036963 0.1007371,11 c 0,-6.0369625 4.8795531,-10.93050049 10.8992619,-10.93050049 z"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(-378.85714-540.07647)"
+     id="g8">
+    <path
+       d="m381.85714 543.07647v4 12h1 15v-1-11-2-2h-5v1 3h4v11h-14v-11h4v-3-1h-5m6.42773 6c-1.06609 0-1.51367.35225-1.51367 1.25391v1.22265c0 .55691-.0205 1.20117-.60937 1.20117h-.30469v.64454h.30469c.58889 0 .60937.64426.60937 1.20117v1.22265c0 .90166.44758 1.25391 1.51367 1.25391v-.5918c-.71072 0-.7207-.23916-.7207-1.10547v-1.00781c0-.41546-.12361-1.03466-.72265-1.29101.59904-.25635.72265-.8736.72265-1.28907v-1.01757c0-.86631.001-1.10547.7207-1.10547v-.5918m3.13672 0v.5918c.71073 0 .72852.23916.72852 1.10547v1.01757c0 .41547.12361 1.03272.72266 1.28907-.59905.25635-.72266.87555-.72266 1.29101v1.00781c0 .86631-.0177 1.10547-.72852 1.10547v.5918c1.0661 0 1.52148-.35225 1.52149-1.25391v-1.22265c0-.55691.0404-1.20117.61914-1.20117h.29492v-.64454h-.29492c-.57874 0-.61915-.64426-.61914-1.20117v-1.22265c0-.90166-.45539-1.25391-1.52149-1.25391"
+       style="fill:currentColor;fill-opacity:1;stroke:none"
+       class="ColorScheme-Text"
+       id="path4" />
+    <path
+       d="m387.85714 543.07647l2 3 2-3z"
+       style="fill:#f60;fill-rule:evenodd"
+       id="path6" />
+  </g>
+</svg>

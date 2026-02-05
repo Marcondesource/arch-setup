@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="audio-recorder-on.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-14.570684"
+     inkscape:cy="3.542373"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47557032"
+     d="m 10.999999,-0.02372089 c 6.019712,0 10.899264,4.91440509 10.899264,10.97711089 0,6.062705 -4.879552,10.977111 -10.899264,10.977111 -6.0197087,0 -10.89926186,-4.914406 -10.89926186,-10.977111 0,-6.0627058 4.87955316,-10.97711089 10.89926186,-10.97711089 z"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 7.667 2 c -1.841 0 -3.333 1.511 -3.333 3.375 l 0 5.635 c 0 1.864 1.492 3.375 3.333 3.375 1.841 0 3.333 -1.511 3.333 -3.375 l 0 -5.635 c 0 -1.864 -1.492 -3.375 -3.333 -3.375 z"
+     style="fill:#ececec;fill-opacity:1"
+     id="path2" />
+  <path
+     d="m 1 11 c 0 3.348 2.398 6.112 5.556 6.645 l 0 1.23 -1.111 0 0 1.125 4.444 0 0 -1.125 -1.111 0 0 -1.23 c 3.157 -0.532 5.556 -3.297 5.556 -6.645 l -2.222 0 c 0 2.485 -1.99 4.5 -4.444 4.5 c -2.455 0 -4.444 -2.01 -4.444 -4.5 l -2.222 0 z"
+     style="fill:#ececec;fill-opacity:1"
+     id="path4" />
+  <path
+     d="m 21 11 a 2.222 2.25 0 0 1 -4.444 0 2.222 2.25 0 1 1 4.444 0 z"
+     style="fill:#ef555c;fill-opacity:1"
+     id="path6" />
+</svg>

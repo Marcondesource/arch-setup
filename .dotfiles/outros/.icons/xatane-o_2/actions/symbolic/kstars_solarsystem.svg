@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="kstars_solarsystem.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-5.3601695"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      </style>
+  </defs>
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47455955"
+     d="m 10.999999,0.06949949 c 6.019712,0 10.899264,4.89353791 10.899264,10.93050051 0,6.036963 -4.879552,10.930501 -10.899264,10.930501 C 4.9802901,21.930501 0.10073697,17.036963 0.10073697,11 0.10073697,4.9630374 4.9802901,0.06949949 10.999999,0.06949949 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     d="M 11 3 A 8 8 0 0 0 3 11 A 8 8 0 0 0 4.3847656 15.498047 A 1.5 1.5 0 0 0 4.2011719 15.75 A 1.5 1.5 0 0 0 4.75 17.798828 A 1.5 1.5 0 0 0 6.5078125 17.609375 A 8 8 0 0 0 11 19 A 8 8 0 0 0 19 11 A 8 8 0 0 0 11 3 z M 11 4 A 7 7 0 0 1 18 11 A 7 7 0 0 1 11 18 A 7 7 0 0 1 6.9824219 16.728516 A 1.5 1.5 0 0 0 6.25 15.201172 A 1.5 1.5 0 0 0 5.2773438 15.015625 A 7 7 0 0 1 4 11 A 7 7 0 0 1 11 4 z M 11 6 A 5 5 0 0 0 6 11 A 5 5 0 0 0 11 16 A 5 5 0 0 0 14.072266 14.9375 A 1.5 1.5 0 0 0 15.798828 14.25 A 1.5 1.5 0 0 0 15.720703 12.630859 A 5 5 0 0 0 16 11 A 5 5 0 0 0 11 6 z M 11 7 A 4 4 0 0 1 15 11 A 4 4 0 0 1 14.857422 12.042969 A 1.5 1.5 0 0 0 13.201172 12.75 A 1.5 1.5 0 0 0 13.238281 14.310547 A 4 4 0 0 1 11 15 A 4 4 0 0 1 7 11 A 4 4 0 0 1 11 7 z M 11 9 A 2 2 0 0 0 9 11 A 2 2 0 0 0 11 13 A 2 2 0 0 0 13 11 A 2 2 0 0 0 11 9 z "
+     class="ColorScheme-Text"
+     id="path4" />
+</svg>

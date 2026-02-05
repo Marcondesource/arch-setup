@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="segment-line.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="-8.0404407"
+     inkscape:cy="7.8876709"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.34483066"
+     d="m 8.0386159,0.12630455 c 4.4123241,0 7.9889341,3.52501945 7.9889341,7.87369525 0,4.3486762 -3.57661,7.8736952 -7.9889341,7.8736952 -4.4123228,0 -7.98893431,-3.525019 -7.98893431,-7.8736952 0,-4.3486758 3.57661151,-7.87369525 7.98893431,-7.87369525 z"
+     inkscape:connector-curvature="0" />
+  <rect
+     style="fill:#dc322f;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"
+     width="13"
+     transform="matrix(0.70711 -0.70711 0.70711 0.70711 0 0)"
+     x="-6.5"
+     y="10.564"
+     height="1.5"
+     id="rect2" />
+  <path
+     style="fill:#313131;opacity:1;fill-opacity:1;stroke:none"
+     d="m 12 1 0 3 l 3 0 0 -3 z m 1 1 1 0 0 1 -1 0 z"
+     id="path4" />
+  <path
+     style="fill:#313131;opacity:1;fill-opacity:1;stroke:none"
+     d="m 1 12 0 3 l 3 0 0 -3 z m 1 1 1 0 0 1 -1 0 z"
+     id="path6" />
+</svg>

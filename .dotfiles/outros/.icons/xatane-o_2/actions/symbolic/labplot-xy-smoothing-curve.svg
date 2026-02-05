@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="labplot-xy-smoothing-curve.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-5.3601695"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47557318"
+     d="M 11,0.06949947 C 17.045454,0.06949947 21.945873,4.9630374 21.945873,11 21.945873,17.036963 17.045454,21.930501 11,21.930501 4.9545476,21.930501 0.05412734,17.036963 0.05412734,11 0.05412734,4.9630374 4.9545476,0.06949947 11,0.06949947 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     d="m 4,3 0,14 -1,0 0,1 1,0 0,1 1,0 0,-1 14,0 0,-1 -11,0 0,-3 4,0 0,-1 0,-4 3,0 0,-1 0,-3 4,0 0,-1 -3,0 -2,0 0,4 -3,0 0,1 0,4 -4,0 0,1 0,3 -2,0 0,-14 z"
+     class="ColorScheme-Text"
+     id="path4" />
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     d="M 18.996094 4 C 17.318298 4.0147218 15.882867 4.9286614 14.630859 6.1972656 C 13.378852 7.4658699 12.274223 9.1100804 11.208984 10.732422 C 10.143746 12.354763 9.117216 13.956734 8.0800781 15.123047 C 7.0429402 16.28936 6.0347103 16.977377 5 16.978516 L 5 17.978516 C 6.4652897 17.976903 7.7081101 17.048575 8.828125 15.789062 C 9.9481399 14.529551 10.984438 12.89635 12.044922 11.28125 C 13.105406 9.6661502 14.188096 8.0693852 15.341797 6.9003906 C 16.495498 5.731396 17.684591 5.0115764 19.003906 5 L 18.996094 4 z "
+     class="ColorScheme-Highlight"
+     id="path6" />
+</svg>

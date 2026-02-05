@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   version="1.1"
+   height="48"
+   id="svg28"
+   sodipodi:docname="text-x-sql.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview30"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="-11.694915"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <path
+     id="path17"
+     style="fill:#3498db;fill-opacity:0.99056602;stroke-width:1.03995812"
+     d="m 23.999999,0.22204168 c 13.176266,0 23.856891,10.73634632 23.856891,23.98134832 0,13.245002 -10.680625,23.981348 -23.856891,23.981348 -13.176262,0 -23.85688949,-10.736346 -23.85688949,-23.981348 0,-13.245002 10.68062749,-23.98134832 23.85688949,-23.98134832 z"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 4.499996,5.6271117 V 42.372889 H 43.500005 V 5.6912395 l -12.61765,-0.064128 z"
+     id="rect4090"
+     style="fill:#ecf0f1;stroke-width:1.02651811" />
+  <g
+     style="fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2.01300001"
+     id="g5"
+     transform="matrix(1.1470591,0,0,0.91864444,-3.5294177,1.9525339)">
+    <rect
+       width="16.308714"
+       x="0"
+       y="0"
+       height="23.031536"
+       style="fill:#34495e"
+       id="shape0"
+       transform="translate(15.9148,15.0328)" />
+    <rect
+       width="10.896083"
+       x="0"
+       y="0"
+       height="7.0866261"
+       style="fill:#2980b9"
+       id="shape1"
+       transform="translate(24.0456,15.0328)" />
+  </g>
+  <g
+     id="g9"
+     style="fill:#2980b9;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2"
+     transform="matrix(1.1470591,0,0,0.91864444,-3.5294177,1.9525339)">
+    <rect
+       transform="translate(24.0456,23.0053)"
+       id="shape2"
+       height="7.0866261"
+       y="0"
+       x="0"
+       width="10.896083" />
+    <rect
+       transform="translate(24.0456,30.9777)"
+       id="shape3"
+       height="7.0866261"
+       y="0"
+       x="0"
+       width="10.896083" />
+  </g>
+  <g
+     id="g14"
+     style="fill:#3498db;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square;stroke-miterlimit:2"
+     transform="matrix(1.1470591,0,0,0.91864444,-3.5294177,1.9525339)">
+    <rect
+       transform="translate(13.2022,15.033)"
+       id="shape11"
+       height="7.0866294"
+       y="0"
+       x="0"
+       width="10.877972" />
+    <rect
+       transform="translate(13.2022,23.0055)"
+       id="shape21"
+       height="7.0866294"
+       y="0"
+       x="0"
+       width="10.877972" />
+    <rect
+       transform="translate(13.2022,30.9779)"
+       id="shape31"
+       height="7.0866294"
+       y="0"
+       x="0"
+       width="10.877972" />
+  </g>
+  <g
+     style="fill:#ecf0f1;fill-opacity:0.875;fill-rule:evenodd;stroke:#003bc3;stroke-width:0;stroke-linecap:square"
+     id="g23"
+     transform="matrix(1.1470591,0,0,0.91864444,-3.5294177,1.9525339)">
+    <rect
+       width="1.7363412"
+       x="0"
+       y="0"
+       height="4.2448978"
+       style="stroke-miterlimit:2.01300001"
+       id="shape4"
+       transform="translate(13.9531,16.0958)" />
+    <g
+       style="stroke-miterlimit:2"
+       id="g21">
+      <rect
+         width="1.7363412"
+         x="0"
+         y="0"
+         height="4.2448978"
+         id="shape5"
+         transform="translate(13.9531,24.0683)" />
+      <rect
+         width="1.7363412"
+         x="0"
+         y="0"
+         height="4.2448978"
+         id="shape6"
+         transform="translate(14.0004,32.0407)" />
+    </g>
+  </g>
+</svg>

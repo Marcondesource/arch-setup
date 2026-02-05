@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="geany-save-all.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="-9.8938709"
+     inkscape:cy="10.2185"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.34483576"
+     d="m 8.0238484,0.05203652 c 4.3593696,0 7.8930556,3.56794408 7.8930556,7.96957438 0,4.4016301 -3.533686,7.9695741 -7.8930556,7.9695741 -4.3593683,0 -7.89305529,-3.567944 -7.89305529,-7.9695741 0,-4.4016303 3.53368699,-7.96957438 7.89305529,-7.96957438 z"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="matrix(0.5,0,0,0.5,0,0.0248856)"
+     id="g10">
+    <path
+       d="m 16 15.95 -6 8 -6 -8 4 0 0 -6 4 0 0 6 z"
+       style="fill:#fff;fill-opacity:0.902"
+       id="path6" />
+    <path
+       d="m 28 9.95 -6 8 -6 -8 4 0 0 -6 4 0 0 6 z"
+       style="fill:#fff;fill-opacity:0.902"
+       id="path8" />
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="mail-attachment.svg"
+   viewBox="0 0 256 256"
+   height="273.06668"
+   width="273.06668"
+   inkscape:version="0.92.0 r"
+   version="1.1"
+   id="svg2">
+  <sodipodi:namedview
+     showguides="true"
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="128"
+     inkscape:cx="42.422855"
+     inkscape:zoom="2.0507812"
+     showgrid="true"
+     id="namedview4"
+     inkscape:window-height="739"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       spacingy="5"
+       spacingx="5"
+       id="grid4156"
+       type="xygrid"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <clipPath
+       id="clipPath4209"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         r="128"
+         cy="128"
+         cx="128"
+         id="circle4211"
+         style="opacity:1;fill:#66a767;fill-opacity:1;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4300">
+      <circle
+         r="128"
+         cy="128"
+         cx="128"
+         id="circle4302"
+         style="opacity:1;fill:#f4b2b2;fill-opacity:1;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <circle
+     style="opacity:1;fill:#82e08a;fill-opacity:1;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4166"
+     cx="128"
+     cy="128"
+     r="128" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 78.00037,145.12857 V 70.128579 c 0,-21.343747 28.65626,-40 50.00001,-40 21.34375,0 50,18.656253 50,40 V 190.87142 c 0,17.71691 -22.28309,35 -40,35 -17.71691,0 -40.00001,-17.28309 -40.00001,-35 V 95.128579 c 0,-13.017083 16.98293,-25 30.00001,-25 13.01708,0 30,11.982917 30,25 v 49.999991"
+     id="path4232"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssssssssc" />
+</svg>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   version="1.1"
+   height="48"
+   id="svg8"
+   sodipodi:docname="application-x-msi.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="-11.694915"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     id="path17"
+     style="fill:#c59c3a;fill-opacity:0.98113209;stroke-width:1.03995812"
+     d="m 23.999999,0.22204212 c 13.176266,0 23.856891,10.73634588 23.856891,23.98134788 0,13.245002 -10.680625,23.981348 -23.856891,23.981348 -13.176262,0 -23.85688902,-10.736346 -23.85688902,-23.981348 0,-13.245002 10.68062702,-23.98134788 23.85688902,-23.98134788 z"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#c59c3a"
+     id="path3001"
+     d="m 4.5323,5.6497 0,36.6961 38.926,0 .074,-36.7458 -12.6677,.0497 z " />
+  <g
+     style="stroke:#fff"
+     id="g3800"
+     transform="translate(2.8474579,-2.2033901)">
+    <rect
+       width="12"
+       x="9.1525421"
+       y="14.20339"
+       height="12"
+       style="fill:#f00"
+       id="rect3773" />
+    <rect
+       width="12"
+       x="21.152542"
+       y="14.20339"
+       height="12"
+       style="fill:#51ff00"
+       id="rect3775" />
+    <rect
+       width="12"
+       x="9.1529999"
+       y="26.20339"
+       height="12"
+       style="fill:#53a8ff"
+       id="rect3777" />
+    <rect
+       width="12"
+       x="21.152542"
+       y="26.202999"
+       height="12"
+       style="fill:#fffd00"
+       id="rect3779" />
+  </g>
+</svg>

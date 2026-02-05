@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="db-step.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="-11.128664"
+     inkscape:cy="7.7472595"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.34379703"
+     d="m 8.0005838,0.04006174 c 4.3593702,0 7.8930562,3.54648176 7.8930562,7.92163486 0,4.3751524 -3.533686,7.9216344 -7.8930562,7.9216344 -4.3593679,0 -7.89305492,-3.546482 -7.89305492,-7.9216344 0,-4.3751531 3.53368702,-7.92163486 7.89305492,-7.92163486 z"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 1 2 0 13 7 0 0 -13 m -6 1 5 0 0 3 -5 0 m 0 1 5 0 0 3 -5 0 z m 0 4 5 0 0 3 -5 0 z"
+     style="fill:#888;opacity:1;fill-opacity:1;stroke:none"
+     id="path2" />
+  <path
+     d="m 12.01 3 c 5.057 2.603 3 7 -0.985 7 l -0.009 2 -4.01 -3.501 4.02 -3.499 l 0 2 c 3.416 0 2.217 -2.173 0.985 -4 z"
+     style="fill:#268bd2;fill-opacity:1;color:#bebebe"
+     id="path4" />
+</svg>

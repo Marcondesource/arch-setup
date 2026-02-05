@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="emblem-symbolic-link.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>脚标-链接</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview17"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="-5.8474576"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">脚标-链接</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="g3823"
+     transform="matrix(1.3220339,0,0,1.3276836,-3.8019661,-2.5867514)">
+    <path
+       d="m 20.964,10.9975 c 0,4.971 -4.029,9 -9,9 -4.971,0 -9,-4.029 -9,-9 0,-4.971 4.029,-9 9,-9 4.971,0 9,4.029 9,9"
+       id="path9"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1" />
+    <path
+       d="m 13,12.000579 v 2.996948 c 0,0.546712 0.323856,0.68909 0.723353,0.302512 l 5.116511,-4.951052 c 0.194302,-0.188019 0.198898,-0.5045414 0,-0.6970393 L 13.723353,4.7000768 C 13.315983,4.305815 13,4.4488226 13,5.0024733 V 8 c -3.16e-4,-2.26e-5 -7,-0.4998081 -7,8 0.9999774,-4.016438 6.999729,-3.999422 7,-3.999421 z"
+       id="Combined-Shape"
+       inkscape:connector-curvature="0"
+       style="fill:#51a2ff;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  </g>
+</svg>

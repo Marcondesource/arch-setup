@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="im-user-away.svg"
+   inkscape:version="0.92.0 r">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="-5.3601695"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <path
+     id="path17"
+     style="fill:#2980b9;fill-opacity:1;stroke-width:0.47455955"
+     d="m 10.999999,0.06949919 c 6.019712,0 10.899264,4.89353791 10.899264,10.93050081 0,6.036962 -4.879552,10.9305 -10.899264,10.9305 C 4.9802903,21.9305 0.10073731,17.036962 0.10073731,11 0.10073731,4.9630371 4.9802903,0.06949919 10.999999,0.06949919 Z"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="translate(-421.71429-525.79071)"
+     style="fill:#fdbc4b"
+     id="g8">
+    <path
+       d="m432.71429 528.79032a3.99999 4.00003 0 0 0 -4 4 3.99999 4.00003 0 0 0 4 4 3.99999 4.00003 0 0 0 4 -4 3.99999 4.00003 0 0 0 -4 -4m0 1a3 3.00003 0 0 1 3 3 3 3.00003 0 0 1 -3 3 3 3.00003 0 0 1 -3 -3 3 3.00003 0 0 1 3 -3"
+       id="path2" />
+    <path
+       d="m12 13a7.99995 8.00003 0 0 0 -7.927734 7h1.00781A6.99996 7.00003 0 0 1 12 14a6.99996 7.00003 0 0 1 1 .08008v-1.00977A7.99995 8.00003 0 0 0 12 13"
+       transform="translate(420.71429 524.79071)"
+       id="path4" />
+    <path
+       d="m440.71429 536.79071l-8 4 2 1 1 3 1-2 2 1z"
+       style="fill-rule:evenodd"
+       id="path6" />
+  </g>
+</svg>
