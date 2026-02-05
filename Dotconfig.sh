@@ -73,6 +73,9 @@ fi
 
 if command -v tint2 &> /dev/null; then
 sudo cp -v .dotfiles/pacman/tint2/ "$HOME/.config"
+
+if command -v xfce4-panel &> /dev/null; then
+xfce4-panel-profiles load .dotfiles/outros/unity.tar.bz2
 fi
 
 #Flatpak

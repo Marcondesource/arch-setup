@@ -8,7 +8,7 @@ I3="i3-wm polybar picom rofi flameshot dunst lxappearance pacman-contrib polkit-
 ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin
 thunar-vcs-plugin thunar-volman"
 FONTS="ttf-terminus-nerd ttf-ubuntu-nerd ttf-jetbrains-mono-nerd ttf-inconsolata-nerd ttf-ibmplex-mono-nerd ttf-hack-nerd ttf-firacode-nerd"
-XFCE="tint2 xfwm4-themes xfdesktop rofi xfce4-settings xfce4-session xfce4-screenshooter xfce4-mixer xfce4-screensaver xfce4-pulseaudio-plugin xfce4-power-manager"
+XFCE="tint2 xfwm4-themes xfdesktop rofi xfce4-settings xfce4-session xfce4-screenshooter xfce4-mixer xfce4-screensaver xfce4-pulseaudio-plugin xfce4-power-manager xfce4-panel-profiles"
 YAY="nitrogen"
 FLATPAK="kodi freedownloadmanager"
 check() {
