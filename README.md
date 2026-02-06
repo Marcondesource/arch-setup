@@ -38,7 +38,7 @@ Script principal de configuração do sistema.
    ```bash
    git clone https://github.com/Marcondesource/arch-setup.git
    cd arch-setup
-   #Dando permissção de execução pros Scripts
+   #Dando permissão de execução pros Scripts
    chmod +x *.sh
    #Agora basta executar os scripts exemplo:
    ./Drivers.sh
