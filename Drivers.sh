@@ -29,10 +29,10 @@ echo "Pacotes instalados"
 
 echo "Instalando yay"
 git clone https://aur.archlinux.org/yay.git "$tmpdir/yay"
-chown -R marcondes:marcondes "$tmpdir"
+chown -R $USER:$USER "$tmpdir"
 cd "$tmpdir/yay"
 pwd
-sudo -u marcondes makepkg -si --noconfirm
+sudo -u $USER makepkg -si --noconfirm
 check "Falha ao Instalar"
 echo "Instalado com sucesso"
 
@@ -42,7 +42,7 @@ rm -rf "$tmpdir"
 
 #2 Instalando drives Nvidia
 echo "Instalando drives Nvidia"
-sudo -u marcondes yay -S --noconfirm nvidia-390xx-dkms nvidia-390xx-utils nvidia-390xx-settings lib32-nvidia-390xx-utils
+sudo -u $USER yay -S --noconfirm nvidia-390xx-dkms nvidia-390xx-utils nvidia-390xx-settings lib32-nvidia-390xx-utils
 check "Falha ao Instalar"
 echo "Instalado com sucesso"
 

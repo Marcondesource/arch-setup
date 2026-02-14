@@ -3,7 +3,7 @@
 #Variaveis (Edite conforme a distro ou interface desejada).
 BASE="git curl nano wget ark unzip zip unrar redshift openssh ufw gparted dosfstools python python-pip android-tools usbutils gvfs gvfs-mtp ufw xdg-user-dirs fastfetch flatpak"
 LOGIN="lxdm"
-UTILITARIOS="mpv ristretto syncthing dialog audacious"
+UTILITARIOS="alacritty kate mpv dialog flatpak rsync"
 I3="i3-wm polybar picom rofi flameshot dunst lxappearance pacman-contrib polkit-gnome"
 ARQUIVOS="thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin
 thunar-vcs-plugin thunar-volman"
