@@ -81,6 +81,7 @@ fi
 
 if command -v sxhkd &> /dev/null; then
 cp -Rv .dotfiles/pacman/sxhkd/ "$HOME/.config"
+fi
 
 #Flatpak
 if command -v gimp &> /dev/null; then
