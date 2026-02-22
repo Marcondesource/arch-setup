@@ -3,7 +3,7 @@
 
 echo "Ambiente Grafico"
 echo "1-I3WM"
-echo "2-XFCE"
+echo "2-OPENBOX"
 read -p "Escolha um :" ambiente
 
 #Iniciado Config
@@ -68,16 +68,19 @@ cp -Rv .dotfiles/pacman/fastfetch/ "$HOME/.config/"
 fi
 
 if command -v Xorg &> /dev/null; then
-sudo cp -v .dotfiles/pacman/xorg/xorg.conf /etc/X11/
+cp -v .dotfiles/pacman/xorg/xorg.conf /etc/X11/
 fi
 
 if command -v tint2 &> /dev/null; then
-sudo cp -v .dotfiles/pacman/tint2/ "$HOME/.config"
+cp -Rv .dotfiles/pacman/tint2/ "$HOME/.config"
 fi
 
-if command -v xfce4-panel &> /dev/null; then
-xfce4-panel-profiles load .dotfiles/outros/unity.tar.bz2
+if command -v openbox &> /dev/null; then
+cp -Rv .dotfiles/pacman/openbox/ "$HOME/.config"
 fi
+
+if command -v sxhkd &> /dev/null; then
+cp -Rv .dotfiles/pacman/sxhkd/ "$HOME/.config"
 
 #Flatpak
 if command -v gimp &> /dev/null; then

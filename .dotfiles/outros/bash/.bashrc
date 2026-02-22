@@ -38,3 +38,7 @@ acp() {
 
 alias gpull='git pull origin main'
 
+export USE_CCACHE=1
+
+#SSH
+eval "$(ssh-agent -s)" ssh-add .ssh/id_ed25519

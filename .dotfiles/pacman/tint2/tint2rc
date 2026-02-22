@@ -324,3 +324,8 @@ tooltip_padding = 4 4
 tooltip_background_id = 5
 tooltip_font_color = #dddddd 100
 
+#Mouse
+mouse_left = toggle_iconify    
+mouse_right = close            
+mouse_scroll_up = next_task    
+

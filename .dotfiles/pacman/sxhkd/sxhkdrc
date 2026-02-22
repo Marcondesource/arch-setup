@@ -1,0 +1,33 @@
+#Terminal
+super + t
+    alacritty
+
+#Rofi
+super + a
+    rofi -show drun
+
+#Firefox
+super + f
+    firefox --private-window
+
+#PCManFM
+super + p
+    pcmanfm
+
+#Fechar Janelas
+super + x 
+    xdotool getwindowfocus windowclose
+
+#Volume 
+super + F11
+     pactl set-sink-volume @DEFAULT_SINK@ -5%
+super + F12  
+     pactl set-sink-volume @DEFAULT_SINK@ +5%
+super + m  
+     pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+#Screenshot
+Print
+     flameshot gui
+super + Print
+     mkdir -p ~/Imagens/Capturas && flameshot full -p ~/Imagens/Capturas
