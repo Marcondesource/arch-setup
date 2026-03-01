@@ -1,15 +1,12 @@
 #
 # ~/.bashrc
-#
-eval "$(oh-my-posh init bash --config ~/.oh-my-posh/theme.omp.json)"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-
+PS1='\[\e[90m\]\h\[\e[0m\] \[\e[$([ "$EUID" -eq 0 ] && echo 31 || echo 90)m\]\$\[\e[0m\] ❯ '
 [[ -r /usr/share/bash-completion/bash_completion ]] && \
   source /usr/share/bash-completion/bash_completion
 
@@ -38,7 +35,3 @@ acp() {
 
 alias gpull='git pull origin main'
 
-export USE_CCACHE=1
-
-#SSH
-eval "$(ssh-agent -s)" ssh-add .ssh/id_ed25519

@@ -33,15 +33,14 @@ if command -v sxhkd &> /dev/null; then
 cp -Rv .dotfiles/pacman/sxhkd/ "$HOME/.config"
 fi
 
-#Flatpak
 if command -v gimp &> /dev/null; then
-cp -Rv .dotfiles/flatpak/gimp/.config/ "$HOME/.config/"
-cp -v .dotfiles/flatpak/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
-cp -Rv .dotfiles/flatpak/gimp/.local/share/icons/ "$HOME/.local/share/"
+cp -Rv .dotfiles/pacman/gimp/ "$HOME/.config/"
+cp -v .dotfiles/pacman/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
+cp -Rv .dotfiles/pacman/gimp/.local/share/icons/ "$HOME/.local/share/"
 fi
 
 if command -v tv.kodi.Kodi &> /dev/null; then
-sudo cp -v .dotfiles/flatpak/kodi/ "$HOME"
+sudo cp -v .dotfiles/pacman/kodi/ "$HOME"
 fi
 
 #Icones, Temas & Wallpapers

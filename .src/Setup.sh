@@ -8,7 +8,7 @@ ARQUIVOS=("thunar" "thunar-archive-plugin" "thunar-media-tags-plugin" "thunar-sh
 "thunar-vcs-plugin" "thunar-volman")
 FONTS=("ttf-terminus-nerd" "ttf-ubuntu-nerd" "ttf-jetbrains-mono-nerd" "ttf-inconsolata-nerd" "ttf-ibmplex-mono-nerd" "ttf-hack-nerd" "ttf-firacode-nerd")
 OPENBOX=("openbox" "obconf-qt" "flameshot" "dunst" "lxappearance" "sxhkd" "xdotool" b"picom" "network-manager-applet")
-YAY=("nitrogen" "apple-fonts")
+YAY=("nitrogen" "apple-fonts" "lxappearance-obconf")
 XFCE=("xfce4-panel-profiles" "xfce4-power-manager" "xfce4-pulseaudio-plugin" "xfce4-screensaver" "xfce4-windowck-plugin" "xfconf" "xfce4-panel" "xfce4-whiskermenu-plugin" "xfce4-settings" "xfce4-clipman-plugin" "xfce4-notifyd" "tumbler")
 LOG="falhas_$(date +%Y-%m-%d).log"
 check() {
