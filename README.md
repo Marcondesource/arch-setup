@@ -39,12 +39,6 @@ Script principal de configuração do sistema.
    cd arch-setup
    #Dando permissão de execução pros Scripts
    chmod +x *.sh
-   #Agora basta executar os scripts exemplo:
-   ./Drivers.sh
-   # Setup principal
-   ./Setup.sh
-   # Dotfiles
-   ./Dotconfig.sh
+   #Agora basta executar os script exemplo:
+   ./Main.sh
    
-   ⚠️ Durante a execução, selecione sempre a mesma interface gráfica
-   (Xfce ou i3wm) quando solicitado.
