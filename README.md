@@ -16,7 +16,7 @@ Responsável pela configuração dos drivers de vídeo.
 
 Script principal de configuração do sistema.
 
-- Mostra um dialogo pra escolha de interface grafica (Xfce ou i3wm)
+- Instala uma interface híbrida (Xfce4+Openbox)
 - Instala todos os pacotes necessarios
 - Habilita gerenciador de login e firewall `ufw`
 
