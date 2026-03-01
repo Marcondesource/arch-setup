@@ -7,8 +7,8 @@ UTILITARIOS=("firefox" "alacritty" "kate" "mpv" "dialog" "flatpak" "rsync" "kodi
 ARQUIVOS=("thunar" "thunar-archive-plugin" "thunar-media-tags-plugin" "thunar-shares-plugin"
 "thunar-vcs-plugin" "thunar-volman")
 FONTS=("ttf-terminus-nerd" "ttf-ubuntu-nerd" "ttf-jetbrains-mono-nerd" "ttf-inconsolata-nerd" "ttf-ibmplex-mono-nerd" "ttf-hack-nerd" "ttf-firacode-nerd")
-OPENBOX=("openbox" "obconf-qt" "flameshot" "dunst" "lxappearance" "sxhkd" "picom" "network-manager-applet")
-YAY=("nitrogen" "lxappearance-obconf-gtk3" "apple-fonts")
+OPENBOX=("openbox" "obconf-qt" "flameshot" "dunst" "lxappearance" "sxhkd" "xdotool" b"picom" "network-manager-applet")
+YAY=("nitrogen" "apple-fonts")
 XFCE=("xfce4-panel-profiles" "xfce4-power-manager" "xfce4-pulseaudio-plugin" "xfce4-screensaver" "xfce4-windowck-plugin" "xfconf" "xfce4-panel" "xfce4-whiskermenu-plugin" "xfce4-settings" "xfce4-clipman-plugin" "xfce4-notifyd" "tumbler")
 LOG="falhas_$(date +%Y-%m-%d).log"
 check() {
@@ -53,7 +53,7 @@ echo "Instalando Sistema"
 for pkg in "${BASE[@]}" "${UTILITARIOS[@]}" "${ARQUIVOS[@]}" \
            "${LOGIN[@]}" "${OPENBOX[@]}" "${XFCE[@]}" "${FONTS[@]}"; do
 
-    if ! "${INSTALL_CMD[@]}" "$pkg" >/dev/null 2>&1; then
+    if ! "${INSTALL_CMD[@]}" "$pkg" 2>>"$LOG"; then
         echo "$pkg" >> "$LOG"
     fi
 done

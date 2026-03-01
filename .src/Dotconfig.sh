@@ -6,7 +6,7 @@ else
 mkdir -p "$HOME/.config"
 echo "Diretorio criado, configurando programas"
 fi
-)
+
 #Pacman
 
 if command -v alacritty &> /dev/null; then
@@ -43,8 +43,6 @@ fi
 if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -v .dotfiles/flatpak/kodi/ "$HOME"
 fi
-
-esac
 
 #Icones, Temas & Wallpapers
 if [ ! -d "$HOME/.icons" ]; then
