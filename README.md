@@ -22,8 +22,7 @@ Script principal de configuração do sistema.
 
 **Dotconfig.sh**
 
-- Dialogo para selecionar interface (Selecione a mesma que você selecionou anteriormente no `Setup.sh`)
-- Configurar os programas de acordo com a interface escolhida
+- Configura os programas de acordo com a interface 
 
 ## ⚠️ Avisos
 
