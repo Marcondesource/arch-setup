@@ -22,12 +22,6 @@ picom &
 #Teclas
 sxhkd &	
 
-#Plank
-plank &
-
-#Tint2
-tint2 &
-
 #Applets
 nm-applet &       
 volumeicon &      
@@ -35,3 +29,8 @@ blueman-applet &
 
 #Wallpaper
 nitrogen --restore &
+
+#Xfce4
+xfce4-panel &
+xfce4-power-manager &
+#xfsettingsd &

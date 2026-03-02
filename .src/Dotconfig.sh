@@ -43,6 +43,10 @@ if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -v .dotfiles/pacman/kodi/ "$HOME"
 fi
 
+if command -v picom &> /dev/null; then
+sudo cp -v .dotfiles/pacman/picom/ "$HOME/.config"
+f
+
 #Icones, Temas & Wallpapers
 if [ ! -d "$HOME/.icons" ]; then
 mkdir -p "$HOME/.icons"

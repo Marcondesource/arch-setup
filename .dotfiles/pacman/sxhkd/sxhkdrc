@@ -2,17 +2,13 @@
 super + t
     alacritty
 
-#Rofi
-super + a
-    rofi -show drun
-
 #Firefox
 super + f
     firefox --private-window
 
-#PCManFM
+#Thunar
 super + p
-    pcmanfm
+    thunar
 
 #Fechar Janelas
 super + x 
@@ -31,3 +27,11 @@ Print
      flameshot gui
 super + Print
      mkdir -p ~/Imagens/Capturas && flameshot full -p ~/Imagens/Capturas
+
+#Reiniciar
+super + shift + r
+    openbox --restart
+
+#Whisker
+super + a 
+xfce4-popup-whiskermenu
