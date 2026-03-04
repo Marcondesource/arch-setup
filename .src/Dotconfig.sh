@@ -40,12 +40,16 @@ cp -Rv .dotfiles/pacman/gimp/.local/share/icons/ "$HOME/.local/share/"
 fi
 
 if command -v tv.kodi.Kodi &> /dev/null; then
-sudo cp -v .dotfiles/pacman/kodi/ "$HOME"
+sudo cp -Rv .dotfiles/pacman/kodi/ "$HOME"
 fi
 
 if command -v picom &> /dev/null; then
-sudo cp -v .dotfiles/pacman/picom/ "$HOME/.config"
+sudo cp -Rv .dotfiles/pacman/picom/ "$HOME/.config"
 f
+
+if command -v plank &> /dev/null; then
+sudo cp -Rv .dotfiles/pacman/plank/ "$HOME/.config/plank/"
+fi
 
 #Icones, Temas & Wallpapers
 if [ ! -d "$HOME/.icons" ]; then
@@ -62,6 +66,15 @@ if [ ! -d "$HOME/Imagens" ]; then
 mkdir -p "$HOME/Imagens"
 cp -Rv .dotfiles/outros/Wallpapers "$HOME/Imagens/"
 fi
+
+if [ ! -d "$HOME/.local/share/icons" ]; then
+mkdir -p "$HOME/.local/share/icons"
+cp -Rv .dotfiles/outros/svg/*.svg "$HOME/.local/share/icons"
+f
+
+if [ ! -d "$HOME/.local/share/applications" ]; then
+mkdir -p "$HOME/.local/share/applications"
+cp -Rv .dotfiles/outros/desktops/*.desktop "$HOME/.local/share/applications"
 
 echo "            Instalação Concluida  			   "
 echo "====================================="

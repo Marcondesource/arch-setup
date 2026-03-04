@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Separator
+Exec=true
+Icon=/home/marcondes/.local/share/icons/separador.svg
+Terminal=false
+NoDisplay=true
