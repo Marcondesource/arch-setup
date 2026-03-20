@@ -1,18 +1,11 @@
 #!/usr/bin/env bash
 #Iniciado Config
-if [ -d "$HOME/.config/" ]; then
-echo "Configurando programas"
-else
+if [ ! -d "$HOME/.config/" ]; then
 mkdir -p "$HOME/.config"
-echo "Diretorio criado, configurando programas"
+echo "Configurando programas"
 fi
 
 #Pacman
-
-if command -v alacritty &> /dev/null; then
-cp -Rv .dotfiles/pacman/alacritty/ "$HOME/.config/"
-fi
-
 if command -v bash &> /dev/null; then
 cp -v .dotfiles/outros/bash/.bashrc "$HOME"
 fi
@@ -43,38 +36,21 @@ if command -v tv.kodi.Kodi &> /dev/null; then
 sudo cp -Rv .dotfiles/pacman/kodi/ "$HOME"
 fi
 
-if command -v picom &> /dev/null; then
-sudo cp -Rv .dotfiles/pacman/picom/ "$HOME/.config"
-f
-
-if command -v plank &> /dev/null; then
-sudo cp -Rv .dotfiles/pacman/plank/ "$HOME/.config/plank/"
-fi
-
 #Icones, Temas & Wallpapers
-if [ ! -d "$HOME/.icons" ]; then
-mkdir -p "$HOME/.icons"
-cp -Rv .dotfiles/outros/.icons "$HOME"
+if [ ! -d "$HOME/.local/share/icons" ]; then
+mkdir -p "$HOME/.local/share/icons"
+cp -Rv .dotfiles/outros/.icons/* ".local/share/icons"
 fi
 
-if [ ! -d "$HOME/.themes" ]; then
-mkdir -p "$HOME/.themes"
-cp -Rv .dotfiles/outros/.themes "$HOME"
+if [ ! -d "$HOME/.local/share/themes" ]; then
+mkdir -p "$HOME/.local/share/themes"
+cp -Rv .dotfiles/outros/.themes/* "$HOME/.local/share/themes"
 fi
 
 if [ ! -d "$HOME/Imagens" ]; then
 mkdir -p "$HOME/Imagens"
-cp -Rv .dotfiles/outros/Wallpapers "$HOME/Imagens/"
+cp -Rv .dotfiles/outros/Wallpapers/ "$HOME/Imagens/"
 fi
-
-if [ ! -d "$HOME/.local/share/icons" ]; then
-mkdir -p "$HOME/.local/share/icons"
-cp -Rv .dotfiles/outros/svg/*.svg "$HOME/.local/share/icons"
-f
-
-if [ ! -d "$HOME/.local/share/applications" ]; then
-mkdir -p "$HOME/.local/share/applications"
-cp -Rv .dotfiles/outros/desktops/*.desktop "$HOME/.local/share/applications"
 
 echo "            Instalação Concluida  			   "
 echo "====================================="

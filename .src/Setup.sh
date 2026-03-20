@@ -3,7 +3,7 @@
 #Variaveis (Edite conforme a distro ou interface desejada).
 BASE=("git" "curl" "nano" "wget" "ark" "unzip" "zip" "unrar" "redshift" "openssh" "ufw" "gparted" "dosfstools" "python" "python-pip" "android-tools" "usbutils" "gvfs" "gvfs-mtp" "xdg-user-dirs" "fastfetch" "bluez" "bluez-utils" "bluez-tools" "blueman")
 LOGIN=("lxdm")
-UTILITARIOS=("firefox" "alacritty" "kate" "mpv" "dialog" "keepassxc" "rsync" "kodi" "gimp" "distrobox" "xcursor-vanilla-dmz")
+UTILITARIOS=("firefox" "xdotool" "lxappearance-obconf" "alacritty" "kate" "mpv" "dialog" "keepassxc" "rsync" "kodi" "gimp" "distrobox" "xcursor-vanilla-dmz")
 ARQUIVOS=("thunar" "thunar-archive-plugin" "thunar-media-tags-plugin" "thunar-shares-plugin"
 "thunar-vcs-plugin" "thunar-volman")
 FONTS=("ttf-terminus-nerd" "ttf-ubuntu-nerd" "ttf-jetbrains-mono-nerd" "ttf-inconsolata-nerd" "ttf-ibmplex-mono-nerd" "ttf-hack-nerd" "ttf-firacode-nerd")

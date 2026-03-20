@@ -16,9 +16,6 @@
 #
 #xfce-mcs-manager &
 
-#Picom
-picom &
-
 #Teclas
 sxhkd &	
 
