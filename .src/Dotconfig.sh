@@ -26,14 +26,12 @@ if command -v sxhkd &> /dev/null; then
 cp -Rv .dotfiles/pacman/sxhkd/ "$HOME/.config"
 fi
 
-if command -v gimp &> /dev/null; then
-cp -Rv .dotfiles/pacman/gimp/ "$HOME/.config/"
-cp -v .dotfiles/pacman/gimp/.local/share/applications/org.gimp.GIMP.desktop "$HOME/.local/share/applications/"
-cp -Rv .dotfiles/pacman/gimp/.local/share/icons/ "$HOME/.local/share/"
+if command -v tv.kodi.Kodi &> /dev/null; then
+cp -Rv .dotfiles/pacman/kodi/ "$HOME"
 fi
 
-if command -v tv.kodi.Kodi &> /dev/null; then
-sudo cp -Rv .dotfiles/pacman/kodi/ "$HOME"
+if command -v firefox &> /devlnull; then
+cp -Rv .dotfiles/pacman/firefox/ "$HOME/.config/
 fi
 
 #Icones, Temas & Wallpapers
