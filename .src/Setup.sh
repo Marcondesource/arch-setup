@@ -3,12 +3,11 @@
 #Variaveis (Edite conforme a distro ou interface desejada).
 BASE=("git" "curl" "nano" "wget" "ark" "unzip" "zip" "unrar" "redshift" "openssh" "ufw" "gparted" "dosfstools" "python" "python-pip" "android-tools" "usbutils" "gvfs" "gvfs-mtp" "xdg-user-dirs" "fastfetch" "bluez" "bluez-utils" "bluez-tools" "blueman")
 LOGIN=("lxdm")
-UTILITARIOS=("firefox" "xdotool" "lxappearance-obconf" "kate" "mpv" "dialog" "keepassxc" "rsync" "kodi" "gimp" "distrobox")
+UTILITARIOS=("firefox" "kate" "mpv" "dialog" "keepassxc" "rsync" "kodi")
 ARQUIVOS=("thunar" "thunar-archive-plugin" "thunar-media-tags-plugin" "thunar-shares-plugin"
 "thunar-vcs-plugin" "thunar-volman")
-OPENBOX=("openbox" "obconf-qt" "flameshot" "dunst" "lxappearance" "sxhkd" "xdotool" b"picom" "network-manager-applet")
-YAY=("nitrogen" "lxappearance-obconf" "obmenu-generator")
-XFCE=("xfce4-panel-profiles" "xfce4-power-manager" "xfce4-pulseaudio-plugin" "xfce4-screensaver" "xfce4-windowck-plugin" "xfconf" "xfce4-panel" "xfce4-settings" "xfce4-clipman-plugin" "xfce4-notifyd" "tumbler")
+XFCE=("xfce4-panel-profiles" "xfce4-power-manager" "xfce4-pulseaudio-plugin" "xfce4-screensaver" "xfce4-windowck-plugin" "xfconf" "xfce4-panel" "xfce4-settings" "xfce4-clipman-plugin" "xfce4-notifyd" "tumbler" ​"xfdesktop" ​"xfce4-settings" "​xfwm4" "​xfce4-session")
+YAY=("freedownloadmanager")
 LOG="falhas_$(date +%Y-%m-%d).log"
 check() {
 if [ "$?" -ne 0 ]; then
